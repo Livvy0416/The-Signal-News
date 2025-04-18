@@ -293,3 +293,38 @@ h2 {
   font-weight: bold;
   text-decoration: underline;
 }
+.dropdown-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown-link button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.dropdown-link button:hover {
+  text-decoration: underline;
+}
+
+.sub-links {
+  display: none;
+  flex-direction: column;
+  padding-left: 15px;
+}
+
+.sub-links a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.sub-links a:hover {
+  text-decoration: underline;
+}
