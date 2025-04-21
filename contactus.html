@@ -3,13 +3,71 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>The Signal – Campus</title>
+  <title>Contact Us – The Signal</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .contact-wrapper {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: space-between;
+    }
+
+    .contact-info, .contact-form {
+      flex: 1 1 400px;
+    }
+
+    .contact-info h2, .contact-form h2 {
+      margin-bottom: 15px;
+      font-size: 24px;
+      border-bottom: 2px solid #003A60;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    .contact-info p, .contact-form p {
+      font-size: 15px;
+      margin: 8px 0;
+    }
+
+    .contact-form form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form button {
+      margin-top: 20px;
+      background-color: #003A60;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #00548f;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Same Banner/Header as homepage -->
+  <!-- Header -->
   <header class="site-header">
     <div class="banner">
       <img src="https://raw.githubusercontent.com/Livvy0416/The-Signal-News/main/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
@@ -18,9 +76,7 @@
         <p>Voice of the University of Houston – Clear Lake community</p>
       </div>
       <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </div>
     </div>
 
@@ -28,11 +84,8 @@
       <a href="index.html">Home</a>
       <a href="campus.html">Campus</a>
       <a href="Clear Lake.html">Clear Lake</a>
-      
       <div class="dropdown-link">
-        <button id="aboutToggle">
-          About Us <span id="aboutArrow">▾</span>
-        </button>
+        <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
         <div class="sub-links" id="aboutSubLinks">
           <a href="contactus.html">Contact Us</a>
           <a href="meettheteam.html">Meet the Team</a>
@@ -41,51 +94,56 @@
     </nav>
   </header>
 
-  <!-- Campus Page Content -->
-  <main class="campus-wrapper">
-    <div class="campus-container">
-      <h2>Campus</h2>
+  <!-- Contact Content -->
+  <main>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h2>Contact The Signal</h2>
+        <p>If you have questions, suggestions, or would like to contribute, feel free to reach out to us. We're always looking to hear from our readers and community members!</p>
 
-      <div class="card-grid">
-        <!-- Card 1 -->
-        <div class="article-card">
-          <img src="https://via.placeholder.com/350x200" alt="Gallery">
-          <h3>UHCL celebrates graduating artists</h3>
-          <p>By <a href="#">Joshua Lister</a></p>
-          <p>March 31, 2025</p>
-          <p>The bachelor of fine arts seniors’ art is the feature of the UHCL Art Gallery. An awards ceremony and reception on March 27 celebrated the graduating artists.</p>
-          <a href="#">Read more</a>
-        </div>
+        <h3>Student Publications</h3>
+        <p><strong>Editor-in-Chief, The Signal:</strong> Josh Lister<br>
+        Editor's Desk: 281-283-2570<br>
+        Email: <a href="mailto:thesignal@uhcl.edu">thesignal@uhcl.edu</a></p>
 
-        <!-- Card 2 -->
-        <div class="article-card">
-          <img src="https://via.placeholder.com/350x200" alt="UHCL sign">
-          <h3>Your Signal is your community news: We’re also more than just news</h3>
-          <p>By <a href="#">Joshua Lister</a></p>
-          <p>March 26, 2025</p>
-          <p>The team here is working hard to create a community resource that you can count on and would like to be a part of.</p>
-          <a href="#">Read more</a>
-        </div>
+        <p><strong>Manager of Communications and Student Media:</strong> Katrina Glenn<br>
+        Phone: 281-283-3975<br>
+        Email: <a href="mailto:glennk@uhcl.edu">glennk@uhcl.edu</a></p>
 
-        <!-- Card 3 -->
-        <div class="article-card">
-          <img src="https://via.placeholder.com/350x200" alt="Texas Bill">
-          <h3>Texas House Bill 160: What does it mean to immigrant students?</h3>
-          <p>By <a href="#">Sergio Salazar</a></p>
-          <p>March 18, 2025</p>
-          <p>A proposed Texas bill could require undocumented students to pay out-of-state tuition and report their immigration status.</p>
-          <a href="#">Read more</a>
-        </div>
+        <p><strong>Location:</strong><br>
+        Bayou Building 1239<br>
+        2700 Bay Area Blvd, Box 456<br>
+        Houston, TX 77058-1002</p>
+      </div>
+
+      <div class="contact-form">
+        <h2>Leave a Message</h2>
+        <form>
+          <label for="name">Name *</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email *</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject">
+
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
       </div>
     </div>
   </main>
 
-  <footer class="footer">
+  <!-- Footer -->
+  <footer class="footer" style="margin-top: 40px;">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
     <div class="social-links">
-      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://x.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
 
