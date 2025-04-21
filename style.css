@@ -119,6 +119,10 @@ h2 {
   transition: transform 0.3s, box-shadow 0.3s;
   transition-timing-function: ease-in-out;
 }
+.article-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
 
 .article-card img {
   width: 100%;
