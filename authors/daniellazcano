@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Caleb Huffman – The Signal</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
 
+  <!-- Header -->
+  <header class="site-header">
+    <div class="banner">
+      <img src="https://raw.githubusercontent.com/Livvy0416/The-Signal-News/main/default-profile.png" alt="Logo" class="logo-img" />
+      <div class="site-title">
+        <h1>The Signal</h1>
+        <p>Voice of the University of Houston – Clear Lake community</p>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileMenu">
+        <a href="../index.html">Home</a>
+        <a href="../campus.html">Campus</a>
+        <a href="../Clear Lake.html">Clear Lake</a>
+        
+        <div class="dropdown-link">
+          <button id="aboutToggle">
+            About Us <span id="aboutArrow">▾</span>
+          </button>
+          <div class="sub-links" id="aboutSubLinks">
+            <a href="../contactus.html">Contact Us</a>
+          <a href="../meettheteam.html">Meet the Team</a>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <!-- Author Content -->
+  <main class="author-page">
+    <div class="author-info">
+      <img src="https://raw.githubusercontent.com/Livvy0416/The-Signal-News/main/default-profile.png" alt="Caleb Huffman">
+      <h2>Daniel Lazcano</h2>
+      <p><em>Contributor</em></p>
+    </div>
+
+    <div class="article-list">
+      <h3>Articles by Daniel Lazcano</h3>
+      <ul>
+        <li><a href="tourneynight.html">Tournament Night at UHCL</a></li>
+        <!-- Add more articles here -->
+      </ul>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 The Signal. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
