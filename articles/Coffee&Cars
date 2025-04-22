@@ -34,6 +34,56 @@
       </div>
     </nav>
   </header>
+<!-- Article Content -->
+<main class="main-wrapper">
+  <div class="content-container">
+    <div class="left-column">
+
+      <img src="" alt="" style="width: 100%; border-radius: 8px;">
+
+      <p style="font-size: 0.8rem; color: gray;">
+        <a href="" target="_blank" rel="noopener">Pexels.com</a>
+      </p>
+
+      <h1>Coffee & Cars car show, something to do on a Saturday</h1>
+      <p><strong>By <a href="../authors/calebhuffman.html">Caleb Huffman</a></strong></p>
+      <p><em>March 18, 2025</em></p>
+
+      <p>
+        HOUSTON – The first Saturday of each month there is a car show held at POST Houston,<p> 
+      <p> by Coffee & Cars, a group of car enthusiasts who look to make an enjoyable event for people<p>
+      <p> of all ages. You can find many types of vehicles here, from Ferraris to classic American muscle cars.
+        <!-- trimmed for brevity -->
+        Go check it out and tell us what you think in the comments below.
+      </p>
+
+    </div>
+  </div>
+</main>
+
+<!-- Comment Section -->
+<div class="content-container" style="margin-top: 40px;">
+  <div class="left-column">
+    <h3>Leave a Reply</h3>
+    <p>Your email address will not be published. Required fields are marked *</p>
+
+    <form>
+      <label for="comment">Comment *</label><br/>
+      <textarea id="comment" rows="5" style="width:100%; margin-bottom:15px;"></textarea><br/>
+
+      <label for="name">Name *</label><br/>
+      <input id="name" type="text" style="width:100%; margin-bottom:15px;"><br/>
+
+      <label for="email">Email *</label><br/>
+      <input id="email" type="email" style="width:100%; margin-bottom:15px;"><br/>
+
+      <button type="submit" style="background-color: #003A60; color:white; padding: 10px 20px; border: none; border-radius: 4px;">
+        Post Comment
+      </button>
+    </form>
+  </div>
+</div>
+
 <!-- Comment Section -->
     <div class="content-container" style="margin-top: 40px;">
       <div class="left-column">
@@ -49,23 +99,6 @@
 
           <label>Email *</label><br/>
           <input type="email" style="width:100%; margin-bottom:15px;"><br/>
- <!-- Article Content -->
-  <main class="main-wrapper">
-    <div class="content-container">
-      <div class="left-column">
-  
-        <img src="" alt="" style="width: 100%; border-radius: 8px;">
-  
-        <p style="font-size: 0.8rem; color: gray;">
-          
-        <a href="" target="_blank" rel="noopener">Pexels.com</a>
-        </p>
-  
-        <h1>Coffee & Cars car show, something to do on a Saturday</h1>
-        <p><strong>By <a href="../authors/calebhuffman.html">Caleb Huffman</a></strong></p>
-        <p><em>March 18, 2025</em></p>
-  
-        <p>HOUSTON- The first Saturday of each month there is a car show held at POST Houston, by Coffee & Cars, a group of car enthusiasts who look to make an enjoyable event for people of all ages. You can find many types of vehicles here, from Ferraris to classic American muscle cars. The event takes place from 8 a.m. to 11 a.m., be sure to watch the weather and the Coffee and Cars social media pages for updates if the show is cancelled due to weather or any other reasons. Parking can be a bit tricky and expensive. There are places to park at POST Houston that are free but those spots fill up quickly so you will need to arrive early if you want to get one, and getting out may not always be easy. As for the paid parking you may have to walk from those car parks because they are a block or two down the road from the event.
 
 Go check it out and tell us what you think in the comments below. </p>
       </div>
