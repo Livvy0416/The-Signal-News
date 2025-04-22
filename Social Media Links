@@ -8,15 +8,19 @@
   <div class="social-icons">
     <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank">
       <i class="fab fa-facebook-f"></i>
+        <img src="facebook-icon.png" alt="Facebook" width="32" height="32">
     </a>
     <a href="https://x.com/uhclthesignal" target="_blank">
       <i class="fab fa-x"></i>
+        <img src="x-icon.png" alt="Facebook" width="32" height="32">
     </a>
     <a href="https://www.instagram.com/uhclthesignal" target="_blank">
       <i class="fab fa-instagram"></i>
+        <img src="instagram-icon.png" alt="Facebook" width="32" height="32">
     </a>
     <a href="https://www.youtube.com/@TheSignalNews" target="_blank">
       <i class="fab fa-youtube"></i>
+        <img src="youtube-icon.png" alt="Facebook" width="32" height="32">
     </a>
   </div>
 </body>
