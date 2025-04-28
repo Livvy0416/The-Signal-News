@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Clear Lake Water Gate Center – The Signal</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <!-- Header -->
+  <header class="site-header">
+    <div class="banner">
+      <img src="https://raw.githubusercontent.com/Livvy0416/The-Signal-News/main/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      <div class="site-title">
+        <h1>The Signal</h1>
+        <p>Voice of the University of Houston – Clear Lake community</p>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <nav class="mobile-nav" id="mobileMenu">
+      <a href="../index.html">Home</a>
+      <a href="../campus.html">Campus</a>
+      <a href="../Clear Lake.html">Clear Lake</a>
+      <div class="dropdown-link">
+        <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
+        <div class="sub-links" id="aboutSubLinks">
+          <a href="../contactus.html">Contact Us</a>
+          <a href="../meettheteam.html">Meet the Team</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+<!-- Article Content -->
+<main class="main-wrapper">
+  <div class="content-container">
+    <div class="left-column">
+
+      <p style="font-size: 0.8rem; color: gray;">
+        <a href="" target="_blank" rel="noopener">Pexels.com</a>
+      </p>
+<main class="main-wrapper">
+  <div class="content-container">
+    <div class="left-column">
+
+      <img src="https://i0.wp.com/thesignalnews.net/wp-content/uploads/2025/02/UHCL-SSCB-2_KS-1-scaled.jpg?resize=1536%2C990&ssl=1" alt="UHCL SSCB Building" style="width: 100%; border-radius: 8px;">
+
+      <p style="font-size: 0.8rem; color: gray;">
+        <a href="" target="_blank" rel="noopener">Pexels.com</a>
+      </p>
+
+      <h1>Campus Resources Recap</h1>
+      <p><strong>By <a href="../authors/gabrielismail.html">Gabriel Ismail</a></strong></p>
+      <p><em>February 28, 2025</em></p>
+
+      <p>HOUSTON – As students at the University of Houston – Clear Lake, many resources are available to you at no out-of-pocket cost. These services are funded through your tuition and student fees. Below are some of the more prominent benefits to help you be your best while you are at UHCL.</p>
+
+      <h2>Writing Center</h2>
+      <p>The Writing Center at UHCL offers writing advice to all UHCL community members—students, faculty, alumni, or staff—on writing projects either personal or professional. Located in the Student Services and Classroom Building (SSCB) on the second floor, room 2.101, you can schedule a meeting with an advisor either in person or online via appointment. The center also accepts walk-ins. Support is provided at any stage of the writing process, and all skill levels are welcome. To see a full list of their services and to schedule an appointment, visit:</p>
+      <p><a href="https://www.uhcl.edu/writing-center/our-services" target="_blank">Writing Center Services</a></p>
+
+      <h2>Student Success Center</h2>
+      <p>The Student Success Center offers tutoring to students, ranging from one-on-one sessions to group study sessions. Located on SSCB’s third floor, room 3102, students can access help with coursework, time management strategies, or career preparation. The center fosters student growth and achievement, helping students navigate their college journey with confidence and success. Learn more and view the tutoring schedule here:</p>
+      <p><a href="https://www.uhcl.edu/student-success-center" target="_blank">Student Success Center</a></p>
+
+      <h2>Counseling and Mental Health Center</h2>
+      <p>The Counseling and Mental Health Center provides free and fully confidential therapy and counseling to any actively enrolled UHCL student. Appointments can be scheduled in person or via Zoom. Located in SSCB on the third floor, room 3103, the center offers support for a variety of student concerns. For more information and to book an appointment, visit:</p>
+      <p><a href="https://www.uhcl.edu/cmhc" target="_blank">Counseling and Mental Health Center</a></p>
+
+      <h2>Career Services</h2>
+      <p>As Hawks get closer to graduation, it’s important to understand how your degree can support your career goals. Career Services offers guidance on utilizing the skills you've developed at UHCL. Students can schedule an appointment or take advantage of drop-in hours at SSCB’s third floor, room 3109. Assistance is provided on a first-come, first-served basis. For more information, visit:</p>
+      <p><a href="https://www.uhcl.edu/career-services" target="_blank">Career Services</a></p>
+
+    </div>
+  </div>
+</main>
+<!-- Comment Section -->
+<div class="content-container" style="margin-top: 40px;">
+  <div class="left-column">
+    <h3>Leave a Reply</h3>
+    <p>Your email address will not be published. Required fields are marked *</p>
+
+    <form>
+      <label for="comment">Comment *</label><br/>
+      <textarea id="comment" rows="5" style="width:100%; margin-bottom:15px;"></textarea><br/>
+
+      <label for="name">Name *</label><br/>
+      <input id="name" type="text" style="width:100%; margin-bottom:15px;"><br/>
+
+      <label for="email">Email *</label><br/>
+      <input id="email" type="email" style="width:100%; margin-bottom:15px;"><br/>
+
+      <button type="submit" style="background-color: #003A60; color:white; padding: 10px 20px; border: none; border-radius: 4px;">
+        Post Comment
+      </button>
+    </form>
+  </div>
+</div>
+
+<!-- Comment Section -->
+    <div class="content-container" style="margin-top: 40px;">
+      <div class="left-column">
+        <h3>Leave a Reply</h3>
+        <p>Your email address will not be published. Required fields are marked *</p>
+
+        <form>
+          <label>Comment *</label><br/>
+          <textarea rows="5" style="width:100%; margin-bottom:15px;"></textarea><br/>
+
+          <label>Name *</label><br/>
+          <input type="text" style="width:100%; margin-bottom:15px;"><br/>
+
+          <label>Email *</label><br/>
+          <input type="email" style="width:100%; margin-bottom:15px;"><br/>
+
+Go check it out and tell us what you think in the comments below. </p>
+      </div>
+    </div>
+    
+
+          <button type="submit" style="background-color: #003A60; color:white; padding: 10px 20px; border: none; border-radius: 4px;">
+            Post Comment
+          </button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 The Signal. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
 
