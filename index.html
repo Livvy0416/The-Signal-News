@@ -6,15 +6,16 @@
   <title>The Signal – Home</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 </head>
 <body>
 
   <header class="site-header">
     <div class="banner">
-      <img src="https://raw.githubusercontent.com/Livvy0416/The-Signal-News/main/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
       <div class="site-title">
         <h1>The Signal</h1>
-        <p>Voice of the University of Houston – Clear Lake Community</p>
+        <p>Voice of the University of Houston – Clear Lake community</p>
       </div>
   
       <!-- Hamburger Icon -->
@@ -30,6 +31,10 @@
       <a href="index.html">Home</a>
       <a href="campus.html">Campus</a>
       <a href="Clear Lake.html">Clear Lake</a>
+      <a href="nuestravoz.html">Nuestra Voz</a>
+      <a href="greaterhouston.html">Greater Houston</a>
+      <a href="lifeandculture.html">Life and Culture</a>
+      <a href="opinion.html">Opinion</a>
       <div class="dropdown-link">
         <button id="aboutToggle">
           About Us <span id="aboutArrow">▾</span>
@@ -44,49 +49,99 @@
   
   
 
-  <main class="main-wrapper">
-    <div class="content-container">
+  <div class="page-wrapper">
+    <main class="main-wrapper">
+      <div class="content-container">
 
-      <section class="left-column">
-        <h2>Recent News</h2>
+        <section class="left-column">
+          <h2>Recent News</h2>
 
-        <div class="article-row">
-          <img src="https://via.placeholder.com/250x150" alt="Gallery">
-          <div class="article-text">
-            <h3>Conoce a Isabel Flores: El Corazón Detrás de Cherry Moon Coffee & Bakery Meet Isabel Flores: The Heart Behind Cherry Moon Coffee & Bakery</h3>
-            <p>By  Norjelly Herrera, Adamari Sanchez <br>April 31, 2025</p>
-            <p><a href="#">Campus</a>, <a href="#">Community News</a>, <a href="#">Life & Culture</a></p>
+          <div class="article-row">
+            <a href="../articles/tourneynight.html">
+              <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Tournament Night">
+            </a>
+            
+            <div class="article-text">
+              <h3><a href="articles/tourneynight.html">Tournament Night at UHCL</a></h3>
+              <p>By <a href="authors/calebhuffman.html">Caleb Huffman</a> <br>April 18, 2025</p>
+              <p><a href="campus.html">Campus</a>, <a href="#">Community News</a>, <a href="#">Life & Culture</a></p>
+            </div>
           </div>
-        </div>
 
-        <div class="article-row">
-          <img src="https://via.placeholder.com/250x150" alt="UHCL Sign">
-          <div class="article-text">
-            <h3>Your Signal is your community news: We’re also more than just news</h3>
-            <p>By Joshua Lister<br>March 26, 2025</p>
-            <p><a href="#">Campus</a>, <a href="#">Editorial</a>, <a href="#">Editors' Pick</a></p>
+          <div class="article-row">
+           <a href="articles/letstalk.html">
+            <img src="images/deer.png" alt="deer">
+            </a>
+
+            <div class="article-text">
+              <h3><a href="articles/letstalk.html">Let's talk</a></h3>
+              <p>By <a href="authors/lisaalvarado.html">Lisa Alvarado</a><br>March 26, 2025</p>
+              <p><a href="campus.html">Campus</a></p>
+            </div>
           </div>
-        </div>
-      </section>
 
-      <section class="right-column">
-        <h2>Featured Articles</h2>
+          <div class="article-row">
+            <a href="articles/watergate.html">
+            <img src="https://images.pexels.com/photos/347925/pexels-photo-347925.jpeg" alt="water-droplets-on-green-leaf-347925">
+            <div class="article-text">
+              <h3><a href="articles/watergate.html">Clear Lake Water Gate Center: Protecting Water Quality and Managing Flood Risks</a></h3>
+              <p>By <a href="authors/daniellazcano.html">Daniel Lazcano</a><br>April 18, 2025</p>
+              <p><a href="Clear Lake.html">Clear Lake</a></p>
+            </div>
+          </div>
+        </section>
 
-        <div class="article-card">
-          <img src="https://via.placeholder.com/250x150" alt="Featured">
-          <h4>Coffee & Cars car show</h4>
-          <p>March 25, 2025</p>
-        </div>
+        <section class="right-column">
+          <h2>Featured Articles</h2>
 
-        <div class="article-card">
-          <img src="https://via.placeholder.com/250x150" alt="Featured">
-          <h4>Student life highlight</h4>
-          <p>March 24, 2025</p>
-        </div>
-      </section>
+          <div class="article-card">
+            <img src="https://i0.wp.com/thesignalnews.net/wp-content/uploads/2025/03/IMG_0254-scaled.jpg?resize=1536%2C1024&ssl=1" alt="Featured">
+            <h4><a href="articles/coffee&cars.html">Coffee & Cars car show, something to do on a Saturday</a></h4>
+            <p>March 18, 2025</p>
+          </div>
 
+          <div class="article-card">
+            <img src="images/protestersdemonstrate.png" alt="Featured">
+            <h4><a href="articles/estadenuestravoz.html">Esta de Nuestra Voz</a></h4>
+            <p>February 9, 2025</p>
+          </div>
+        </section>
+        
+        
+        
+
+        
+    
+      </div>
+    </main>
+  </div>
+  
+  
+  <div class="sidebar-container">
+  <!-- Weather Widget -->
+    <div class="weather-box">
+      <a class="weatherwidget-io"
+        href="https://forecast7.com/en/29d76n95d37/houston/"
+        data-label_1="HOUSTON"
+        data-label_2="WEATHER"
+        data-theme="original">
+        HOUSTON WEATHER
+      </a>
     </div>
-  </main>
+  <!-- POLL goes here, completely outside of <main> -->
+    <div class="poll-sidebar">
+      <form id="pollForm">
+        <strong>📊 What content should The Signal post more of?</strong><br><br>
+        <label><input type="radio" name="poll" value="news"> Campus News & Events</label><br>
+        <label><input type="radio" name="poll" value="culture"> Life & Culture</label><br>
+        <label><input type="radio" name="poll" value="opinions"> Student Opinions</label><br>
+        <label><input type="radio" name="poll" value="creative"> Creative Submissions</label><br><br>
+        <button type="submit">Submit</button>
+        <p id="pollMessage" style="color: green; display: none;">Thank you for voting!</p>
+      </form>
+    </div>
+  </div>
+
 
   <footer class="footer">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
@@ -96,6 +151,8 @@
       <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
+  
+  
 
   <script src="script.js"></script>
 </body>
