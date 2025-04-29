@@ -6,84 +6,110 @@
   <title>The Signal – Nuestra Voz</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
 </head>
 <body>
-
-  <!-- Same Banner/Header as homepage -->
-  <header class="site-header">
-    <div class="banner">
-      <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
-      <div class="site-title">
-        <h1>The Signal</h1>
-        <p>Voice of the University of Houston – Clear Lake community</p>
-      </div>
-      <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+ <!-- Header -->
+ <header class="site-header">
+  <div class="banner">
+    <a href="index.html"><img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" /></a>
+    <div class="site-title">
+      <h1>The Signal</h1>
+      <p>Voice of the University of Houston – Clear Lake community</p>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+  <!-- Slide-Out Mobile Nav -->
+  <nav class="mobile-nav" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="campus.html">Campus</a>
+    <a href="Clear Lake.html">Clear Lake</a>
+    <a href="nuestravoz.html">Nuestra Voz</a>
+    <a href="greaterhouston.html">Greater Houston</a>
+    <a href="lifeandculture.html">Life and Culture</a>
+    <a href="opinion.html">Opinion</a>
+    <div class="dropdown-link">
+      <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
+      <div class="sub-links" id="aboutSubLinks">
+        <a href="contactus.html">Contact Us</a>
+        <a href="meettheteam.html">Meet the Team</a>
       </div>
     </div>
+  </nav>
+</header>
 
-    <nav class="mobile-nav" id="mobileMenu">
-      <a href="index.html">Home</a>
-      <a href="campus.html">Campus</a>
-      <a href="Clear Lake.html">Clear Lake</a>
-      <a href="nuestravoz.html">Nuestra Voz</a>
-      <a href="greaterhouston.html">Greater Houston</a>
-      <a href="lifeandculture.html">Life and Culture</a>
-      <a href="opinion.html">Opinion</a>
-      
-      <div class="dropdown-link">
-        <button id="aboutToggle">
-          About Us <span id="aboutArrow">▾</span>
-        </button>
-        <div class="sub-links" id="aboutSubLinks">
-          <a href="contactus.html">Contact Us</a>
-          <a href="meettheteam.html">Meet the Team</a>
-        </div>
-      </div>
-      
-    </nav>
-  </header>
-
-  <!-- Campus Page Content -->
+  <!-- Page Content -->
   <main class="campus-wrapper">
     <div class="campus-container">
       <h2>Nuestra Voz</h2>
 
-      <div class="card-grid">
-        <!-- Card 1 -->
+      <div class="card-grid" style="grid-template-columns: repeat(3, 1fr);">
+        <!-- Article 1 -->
         <div class="article-card">
-          <img src="images/isabelatcoutner.png" alt="Conoce a Isabel Flores">
-          <h3>Conoce a Isabel Flores: El Corazón Detrás de Cherry Moon Coffee & Bakery Meet Isabel Flores: The Heart Behind Cherry Moon Coffee & Bakery</h3>
-          <p>By <a href="authors/adamarisanchez.html">Adamari Sanchez,</a>  <a href="authors/norjellyherrera.html"> Norjelly Herrera</a></p>
+          <a href="articles/conoceaisabelflores.html">
+            <img src="images/isabelatcoutner.png" alt="Conoce a Isabel Flores">
+          </a>
+          <h3>Conoce a Isabel Flores: El Corazón Detrás de Cherry Moon Coffee & Bakery</h3>
+          <p>By <a href="authors/adamarisanchez.html">Adamari Sanchez</a>, <a href="authors/norjellyherrera.html">Norjelly Herrera</a></p>
           <p>April 17, 2025</p>
-          <p>This story has been produced in both Spanish and English. To read the English version go to page two. – Ed. Por Adamari Sánchez y Norjelly Herrera WEBSTER— 
-            Imagina entrar a una hermosa cafetería, rodeado del aroma de pasteles recién horneados y la calidez de un ambiente acogedor. Esto es…</p>
+          <p>This story has been produced in both Spanish and English. To read the English version go to page two…</p>
           <a href="articles/conoceaisabelflores.html">Read more</a>
         </div>
-
-        <!-- Card 2 -->
+        <!-- Article 2 -->
         <div class="article-card">
-          <img src="images/uhclbanner.png" alt="Voces de Inspiración: Entrevistas con Profesoras Latinas">
+          <a href="articles/vocesdeinspiracion.html">
+            <img src="images/uhclbanner.png" alt="Voces de Inspiración">
+          </a>
           <h3>Voces de Inspiración: Entrevistas con Profesoras Latinas</h3>
-          <p>By <a href="authors/adamarisanchez.html">Adamari Sanchez,</a>  <a href="authors/norjellyherrera.html"> Norjelly Herrera</a></p>
+          <p>By <a href="authors/adamarisanchez.html">Adamari Sanchez</a>, <a href="authors/norjellyherrera.html">Norjelly Herrera</a></p>
           <p>March 5, 2025</p>
-          <p>Bienvenidos a Nuestra Voz, donde nos sumergimos en la celebración del Mes de la Historia de la Mujer. 
-            Marzo ha llegado, trayendo consigo la oportunidad de honrar y reflexionar sobre las contribuciones de las mujeres que han dado forma a nuestro mundo. 
-            En Nuestra Voz, creemos en la importancia de…</p>
+          <p>Bienvenidos a Nuestra Voz, donde nos sumergimos en la celebración del Mes de la Historia de la Mujer…</p>
           <a href="articles/vocesdeinspiracion.html">Read more</a>
         </div>
-
-        <!-- Card 3 -->
+        <!-- Article 3 -->
         <div class="article-card">
-          <img src="images/protestersdemonstrate.png" alt="Esta es Nuestra Voz">
+          <a href="articles/estadenuestravoz.html">
+            <img src="images/protestersdemonstrate.png" alt="Esta es Nuestra Voz">
+          </a>
           <h3>Esta es Nuestra Voz</h3>
-          <p>By <a href="authors/adamarisanchez.html">Adamari Sanchez,</a>  <a href="authors/norjellyherrera.html"> Norjelly Herrera</a></p>
+          <p>By <a href="authors/adamarisanchez.html">Adamari Sanchez</a>, <a href="authors/norjellyherrera.html">Norjelly Herrera</a></p>
           <p>February 9, 2025</p>
-          <p>The Signal, el periódico estudiantil de la Universidad de Houston-Clear Lake, reaparece en 2025 como una voz crucial para la comunidad hispana, abordando temas de justicia 
-            social y derechos civiles en un contexto de políticas migratorias desafiantes. Con un enfoque en empoderar a los estudiantes mediante herramientas como la Tarjeta…</p>
+          <p>The Signal, el periódico estudiantil de UHCL, reaparece en 2025 como una voz crucial para la comunidad hispana…</p>
           <a href="articles/estadenuestravoz.html">Read more</a>
+        </div>
+
+        <!-- Placeholder Cards -->
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Nuestra Voz stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Nuestra Voz stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Nuestra Voz stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Nuestra Voz stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Nuestra Voz stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Nuestra Voz stories are on the way!</p>
         </div>
       </div>
     </div>
@@ -92,12 +118,28 @@
   <footer class="footer">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
     <div class="social-links">
-      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://x.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('show');
+      hamburger.classList.toggle('open');
+    });
+    // About dropdown toggle
+    document.getElementById('aboutToggle').addEventListener('click', () => {
+      const sub = document.getElementById('aboutSubLinks');
+      const arrow = document.getElementById('aboutArrow');
+      const isOpen = sub.style.display === 'flex';
+      sub.style.display = isOpen ? 'none' : 'flex';
+      arrow.textContent = isOpen ? '▾' : '▴';
+    });
+  </script>
 </body>
 </html>

@@ -6,13 +6,15 @@
   <title>The Signal – Life and Culture</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
 </head>
 <body>
-
-  <!-- Same Banner/Header as homepage -->
+  <!-- Banner & Header copied from index.html -->
   <header class="site-header">
     <div class="banner">
-      <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      <a href="index.html">
+        <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      </a>
       <div class="site-title">
         <h1>The Signal</h1>
         <p>Voice of the University of Houston – Clear Lake community</p>
@@ -24,102 +26,101 @@
       </div>
     </div>
 
+    <!-- Slide-Out Mobile Nav -->
     <nav class="mobile-nav" id="mobileMenu">
-        <a href="index.html">Home</a>
-        <a href="campus.html">Campus</a>
-        <a href="Clear Lake.html">Clear Lake</a>
-        <a href="nuestravoz.html">Nuestra Voz</a>
-        <a href="greaterhouston.html">Greater Houston</a>
-        <a href="lifeandculture.html">Life and Culture</a>
-        <a href="opinion.html">Opinion</a>
-        
-        <div class="dropdown-link">
-          <button id="aboutToggle">
-            About Us <span id="aboutArrow">▾</span>
-          </button>
-          <div class="sub-links" id="aboutSubLinks">
-            <a href="contactus.html">Contact Us</a>
+      <a href="index.html">Home</a>
+      <a href="campus.html">Campus</a>
+      <a href="Clear Lake.html">Clear Lake</a>
+      <a href="nuestravoz.html">Nuestra Voz</a>
+      <a href="greaterhouston.html">Greater Houston</a>
+      <a href="lifeandculture.html">Life and Culture</a>
+      <a href="opinion.html">Opinion</a>
+      <div class="dropdown-link">
+        <button id="aboutToggle">
+          About Us <span id="aboutArrow">▾</span>
+        </button>
+        <div class="sub-links" id="aboutSubLinks">
+          <a href="contactus.html">Contact Us</a>
           <a href="meettheteam.html">Meet the Team</a>
-          </div>
         </div>
-        
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-  <!-- Campus Page Content -->
+  <!-- Page Content -->
   <main class="campus-wrapper">
     <div class="campus-container">
       <h2>Life and Culture</h2>
-      <h3>Parent category for the things that make our world attractive</h3>
 
-      <div class="card-grid">
+      <!-- 3×3 Grid: existing articles + placeholders -->
+      <div class="card-grid" style="grid-template-columns: repeat(3, 1fr);">
         <!-- Card 1 -->
         <div class="article-card">
-          <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Gaming controllers">
-
+          <a href="articles/tourneynight.html">
+            <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Tournament Night at UHCL">
+          </a>
           <h3>Tournament Night at UHCL</h3>
           <p>By <a href="authors/calebhuffman.html">Caleb Huffman</a></p>
           <p>April 18, 2025</p>
-          <p>The Board Game Association along with the Gamer Guild and Hawk Gaming clubs, hosted an event on campus called Tournament Night. 
-            Students could win prizes by competing against one another in video games or board games, the prizes ranged from a board game bundle to a Meta Quest VR Headset.…</p>
-             <a href="articles/tourneynight.html">Read more</a>
+          <p>The Board Game Association along with the Gamer Guild and Hawk Gaming clubs hosted Tournament Night. Students competed in video and board games with prizes ranging from game bundles to a Meta Quest VR Headset.</p>
+          <a href="articles/tourneynight.html">Read more</a>
         </div>
 
         <!-- Card 2 -->
         <div class="article-card">
-          <img src="https://via.placeholder.com/350x200" alt="UHCL sign">
-          <h3>Eating out?</h3>
-          <p>By <a href="#">Reid Mills, Samuel Fusaro </a></p>
-          <p>February 28, 2025</p>
-          <p>HOUSTON- While there are many easy snack options available at the Patio Café, it’s no secret that more options are needed. There are many fantastic restaurants surrounding UHCL that offer good meals you can grab before or after class. Whether this is your first semester or you’re a seasoned scholar,… </p>
-          <a href="#">Read more</a>
+          <a href="articles/letstalk.html">
+            <img src="images/deer.png" alt="Let’s Talk">
+          </a>
+          <h3>Let’s Talk</h3>
+          <p>By <a href="authors/lisaalvarado.html">Lisa Alvarado</a></p>
+          <p>April 18, 2025</p>
+          <p>Let’s Talk Tuesdays is a weekly event by UHCL’s CMHC to raise mental health awareness and break the stigma surrounding therapy every Tuesday from 12 p.m. to 1 p.m.</p>
+          <a href="articles/letstalk.html">Read more</a>
         </div>
+
         <!-- Card 3 -->
         <div class="article-card">
-            <img src="https://via.placeholder.com/350x200" alt="UHCL sign">
-            <h3>Eating out?</h3>
-            <p>By <a href="#">Reid Mills, Samuel Fusaro </a></p>
-            <p>February 28, 2025</p>
-            <p>HOUSTON- While there are many easy snack options available at the Patio Café, it’s no secret that more options are needed. There are many fantastic restaurants surrounding UHCL that offer good meals you can grab before or after class. Whether this is your first semester or you’re a seasoned scholar,… </p>
-            <a href="#">Read more</a>
-          </div>
-          <!-- Card 4 -->
+          <a href="articles/GetInvolved.html">
+            <img src="images/Getinvovled.jpeg" alt="Get Involved at UHCL">
+          </a>
+          <h3>Get Involved at UHCL</h3>
+          <p>By <a href="authors/samuelfusaro.html">Samuel Fusaro</a></p>
+          <p>March 18, 2025</p>
+          <p>Service Week, Spring Thing, Hawk Excellence Awards, Neon Night, and Let’s Talk Tuesdays offer students myriad ways to engage with UHCL events.</p>
+          <a href="articles/GetInvolved.html">Read more</a>
+        </div>
+
+        <!-- Placeholders -->
         <div class="article-card">
-            <img src="https://i0.wp.com/thesignalnews.net/wp-content/uploads/2025/03/IMG_0254-scaled.jpg?resize=1536%2C1024&ssl=1" alt="cars">
-            <h3>Coffee & Cars car show, something to do on a Saturday</h3>
-            <p>By <a href="authors/calebhuffman.html">Caleb Huffman</a></p>
-            <p>March 18, 2025</p>
-            <p>The first Saturday of each month, POST Houston hosts a car show by Coffee & Cars featuring diverse vehicles. 
-                Attendees should arrive early for limited free parking and check social media for updates.</p>
-            <a href="articles/coffee&cars.html">Read more</a>
-          </div>
-          <!-- Card 5 -->
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Life & Culture stories are on the way!</p>
+        </div>
         <div class="article-card">
-            <img src="https://via.placeholder.com/350x200" alt="UHCL sign">
-            <h3>Eating out?</h3>
-            <p>By <a href="#">Reid Mills, Samuel Fusaro </a></p>
-            <p>February 28, 2025</p>
-            <p>HOUSTON- While there are many easy snack options available at the Patio Café, it’s no secret that more options are needed. There are many fantastic restaurants surrounding UHCL that offer good meals you can grab before or after class. Whether this is your first semester or you’re a seasoned scholar,… </p>
-            <a href="#">Read more</a>
-          </div>
-          <!-- Card 6 -->
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Life & Culture stories are on the way!</p>
+        </div>
         <div class="article-card">
-            <img src="https://via.placeholder.com/350x200" alt="UHCL sign">
-            <h3>Eating out?</h3>
-            <p>By <a href="#">Reid Mills, Samuel Fusaro </a></p>
-            <p>February 28, 2025</p>
-            <p>HOUSTON- While there are many easy snack options available at the Patio Café, it’s no secret that more options are needed. There are many fantastic restaurants surrounding UHCL that offer good meals you can grab before or after class. Whether this is your first semester or you’re a seasoned scholar,… </p>
-            <a href="#">Read more</a>
-          </div>
-          <!-- Card 7 -->
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Life & Culture stories are on the way!</p>
+        </div>
         <div class="article-card">
-            <img src="https://via.placeholder.com/350x200" alt="UHCL sign">
-            <h3>Eating out?</h3>
-            <p>By <a href="#">Reid Mills, Samuel Fusaro </a></p>
-            <p>February 28, 2025</p>
-            <p>HOUSTON- While there are many easy snack options available at the Patio Café, it’s no secret that more options are needed. There are many fantastic restaurants surrounding UHCL that offer good meals you can grab before or after class. Whether this is your first semester or you’re a seasoned scholar,… </p>
-            <a href="#">Read more</a>
-          </div>
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Life & Culture stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Life & Culture stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new Life & Culture stories are on the way!</p>
+        </div>
       </div>
     </div>
   </main>
@@ -127,12 +128,28 @@
   <footer class="footer">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
     <div class="social-links">
-      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://x.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script>
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('show');
+      hamburger.classList.toggle('open');
+    });
+    // About dropdown toggle
+    document.getElementById('aboutToggle').addEventListener('click', () => {
+      const sub = document.getElementById('aboutSubLinks');
+      const arrow = document.getElementById('aboutArrow');
+      const isOpen = sub.style.display === 'flex';
+      sub.style.display = isOpen ? 'none' : 'flex';
+      arrow.textContent = isOpen ? '▾' : '▴';
+    });
+  </script>
 </body>
 </html>

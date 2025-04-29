@@ -9,10 +9,12 @@
 </head>
 <body>
 
-  <!-- Same Banner/Header as homepage -->
+  <!-- Banner & Header copied from index.html -->
   <header class="site-header">
     <div class="banner">
-      <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      <a href="index.html">
+        <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      </a>
       <div class="site-title">
         <h1>The Signal</h1>
         <p>Voice of the University of Houston – Clear Lake community</p>
@@ -24,6 +26,7 @@
       </div>
     </div>
 
+    <!-- Slide-Out Mobile Nav -->
     <nav class="mobile-nav" id="mobileMenu">
       <a href="index.html">Home</a>
       <a href="campus.html">Campus</a>
@@ -32,7 +35,6 @@
       <a href="greaterhouston.html">Greater Houston</a>
       <a href="lifeandculture.html">Life and Culture</a>
       <a href="opinion.html">Opinion</a>
-      
       <div class="dropdown-link">
         <button id="aboutToggle">
           About Us <span id="aboutArrow">▾</span>
@@ -42,7 +44,6 @@
           <a href="meettheteam.html">Meet the Team</a>
         </div>
       </div>
-
     </nav>
   </header>
 
@@ -51,58 +52,85 @@
     <div class="campus-container">
       <h2>Campus</h2>
 
-      <div class="card-grid">
+      <!-- 3x3 Grid: existing articles plus placeholders -->
+      <div class="card-grid" style="grid-template-columns: repeat(3, 1fr);">
         <!-- Card 1 -->
         <div class="article-card">
-          <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Tournament Night at UHCL">
+          <a href="articles/tourneynight.html">
+            <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Tournament Night at UHCL">
+          </a>
           <h3>Tournament Night at UHCL</h3>
-          <p>By <a href="../authors/calebhuffman.html">Caleb Huffman</a></p>
+          <p>By <a href="authors/calebhuffman.html">Caleb Huffman</a></p>
           <p>April 18, 2025</p>
-          <p>The Board Game Association along with the Gamer Guild and Hawk Gaming clubs, hosted an event on campus called Tournament Night.
-             Students could win prizes by competing against one another in video games or board games, the prizes ranged from a board game bundle to a Meta Quest VR Headset.…</p>
+          <p>The Board Game Association along with the Gamer Guild and Hawk Gaming clubs hosted Tournament Night. Students competed in video and board games with prizes from game bundles to a Meta Quest VR Headset.</p>
           <a href="articles/tourneynight.html">Read more</a>
         </div>
 
         <!-- Card 2 -->
         <div class="article-card">
-          <img src="images/deer.png" alt="deer">
+          <a href="articles/letstalk.html">
+            <img src="images/deer.png" alt="deer">
+          </a>
           <h3>Let's Talk</h3>
-          <p>By <a href="../authors/lisaalvarado.html">Lisa Alvarado</a></p>
+          <p>By <a href="authors/lisaalvarado.html">Lisa Alvarado</a></p>
           <p>April 18, 2025</p>
-          <p>Let’s Talk Tuesday’s is a weekly event put on by the Counseling and Mental Health Center (CMHC) to raise awareness about the mental health resources provided by the University of Houston – Clear Lake (UHCL) and break the stigma surrounding therapy.</p>
-          <a href="../articles/letstalk.html">Read more</a>
+          <p>Let’s Talk Tuesday’s is a weekly event by UHCL’s CMHC to raise mental health awareness and break therapy stigma on campus every Tuesday from 12 p.m. to 1 p.m.</p>
+          <a href="articles/letstalk.html">Read more</a>
         </div>
 
         <!-- Card 3 -->
         <div class="article-card">
-          <img src="images/Getinvovled.jpeg" alt="deer">
+          <a href="articles/GetInvolved.html">
+            <img src="images/Getinvovled.jpeg" alt="Get Involved">
+          </a>
           <h3>Get Involved at UHCL</h3>
-          <p>By <a href="#">Samuel Fusaro</a></p>
+          <p>By <a href="authors/samuelfusaro.html">Samuel Fusaro</a></p>
           <p>March 18, 2025</p>
-          <p>At the University of Houston Clear Lake there is always something fun happening right around the corner. The school strives to enrich the lives of its students by regularly holding events for students to engage in. The month of April is busy, so be sure to check out some of…</p>
-          <a href="../articles/GetInvolved.html">Read more</a>
+          <p>UHCL’s Service Week, Spring Thing, Hawk Excellence Awards, Neon Night, and Let’s Talk Tuesdays offer students numerous opportunities to engage with campus events and initiatives.</p>
+          <a href="articles/GetInvolved.html">Read more</a>
+        </div>
+
+        <!-- Placeholder Cards -->
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder image">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new campus stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder image">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new campus stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder image">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new campus stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder image">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new campus stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder image">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new campus stories are on the way!</p>
+        </div>
+        <div class="article-card">
+          <img src="https://via.placeholder.com/350x200" alt="Placeholder image">
+          <h3>Content Coming Soon</h3>
+          <p>Stay tuned—new campus stories are on the way!</p>
         </div>
       </div>
     </div>
   </main>
-  <div class="quiz-box">
-    <form id="mascotQuiz">
-      <strong>🎓 What is University of Houston-Clear Lake's Mascot?</strong><br><br>
-      <label><input type="radio" name="quiz" value="a"> Sammy the Seal</label><br>
-      <label><input type="radio" name="quiz" value="b"> Emily the Eagle</label><br>
-      <label><input type="radio" name="quiz" value="c"> Hunter the Hawk</label><br>
-      <label><input type="radio" name="quiz" value="d"> Barney the Barnacle</label><br><br>
-      <button type="submit">Submit</button>
-      <p id="quizMessage" style="display: none;"></p>
-    </form>
-  </div>
-  
+
   <footer class="footer">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
     <div class="social-links">
-      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://x.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
 

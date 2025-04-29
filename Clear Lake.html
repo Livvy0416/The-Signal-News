@@ -9,71 +9,87 @@
 </head>
 <body>
 
-  <!-- Same Banner/Header as homepage -->
+  <!-- Header -->
   <header class="site-header">
     <div class="banner">
-      <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      <a href="index.html"><img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" /></a>
       <div class="site-title">
         <h1>The Signal</h1>
         <p>Voice of the University of Houston – Clear Lake community</p>
       </div>
       <div class="hamburger" id="hamburger">
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span>
       </div>
     </div>
-
+    <!-- Slide-Out Mobile Nav -->
     <nav class="mobile-nav" id="mobileMenu">
-        <a href="index.html">Home</a>
-        <a href="campus.html">Campus</a>
-        <a href="Clear Lake.html">Clear Lake</a>
-        <a href="nuestravoz.html">Nuestra Voz</a>
-        <a href="greaterhouston.html">Greater Houston</a>
-        <a href="lifeandculture.html">Life and Culture</a>
-        <a href="opinion.html">Opinion</a>
-        
-        <div class="dropdown-link">
-          <button id="aboutToggle">
-            About Us <span id="aboutArrow">▾</span>
-          </button>
-          <div class="sub-links" id="aboutSubLinks">
-            <a href="contactus.html">Contact Us</a>
+      <a href="index.html">Home</a>
+      <a href="campus.html">Campus</a>
+      <a href="Clear Lake.html">Clear Lake</a>
+      <a href="nuestravoz.html">Nuestra Voz</a>
+      <a href="greaterhouston.html">Greater Houston</a>
+      <a href="lifeandculture.html">Life and Culture</a>
+      <a href="opinion.html">Opinion</a>
+      <div class="dropdown-link">
+        <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
+        <div class="sub-links" id="aboutSubLinks">
+          <a href="contactus.html">Contact Us</a>
           <a href="meettheteam.html">Meet the Team</a>
-          </div>
         </div>
-        
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-  <!-- Campus Page Content -->
+  <!-- Clear Lake Page Content -->
   <main class="campus-wrapper">
     <div class="campus-container">
       <h2>Clear Lake</h2>
-
       <div class="card-grid">
         <!-- Card 1 -->
         <div class="article-card">
-          <img src="https://images.pexels.com/photos/347925/pexels-photo-347925.jpeg" alt="Water droplets on green leaf">
-
-          <h3>Clear Lake Water Gate Center: Protecting Water Quality and Managing Flood Risks</h3>
-          <p>By <a href="authors/daniellazcano">Daniel Lazcano</a></p>
-          <p>April 18, 2025</p>
-          <p>CLEAR LAKE- The Clear Lake Water Gate Center is a highly critical facility dedicated to maintaining water quality, controlling water levels, and managing flood risks in the Clear Lake region.
-             This center serves as an essential home for environmental monitoring and water resource management, ensuring sustainable water usage for the…  </p>
-             <a href="articles/watergate.html">Read more</a>
+          <a href="articles/watergate.html" class="article-card-link">
+            <img src="https://images.pexels.com/photos/347925/pexels-photo-347925.jpeg" alt="Water Gate Center">
+            <h4>Clear Lake Water Gate Center: Protecting Water Quality and Managing Flood Risks</h4>
+            <p>By <a href="authors/daniellazcano.html">Daniel Lazcano</a> · April 18, 2025</p>
+          </a>
         </div>
-
         <!-- Card 2 -->
         <div class="article-card">
-          <img src="images/NASA-Protesters-4.png" alt="Protest at NASA">
-          <h3>Protest at NASA over federal civil service terminations</h3>
-          <p>By <a href="authors/joshualister.html">Joshua Lister</a></p>
-          <p>March 17, 2025</p>
-          <p>A protest at NASA’s Johnson Space Center, led by U.S. Rep. Al Green and union members, criticized mass terminations of federal workers under the Trump administration, emphasizing the importance of civil service jobs. 
-            <a href="articles/ProtestatNASA.html">Read more</a>
+          <a href="articles/ProtestatNASA.html" class="article-card-link">
+            <img src="images/NASA-Protesters-4.png" alt="NASA Protest">
+            <h4>Protest at NASA over federal civil service terminations</h4>
+            <p>By <a href="authors/joshualister.html">Joshua Lister</a> · March 17, 2025</p>
+          </a>
         </div>
-
+        <!-- Placeholder cards -->
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
+        <div class="article-card placeholder-card">
+  <img src="images/placeholder.png" alt="Content Coming Soon">
+  <h4>Content Coming Soon</h4>
+</div>
       </div>
     </div>
   </main>
@@ -81,9 +97,9 @@
   <footer class="footer">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
     <div class="social-links">
-      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://x.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
 
