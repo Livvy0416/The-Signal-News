@@ -6,27 +6,30 @@
   <title>The Signal – Home</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+  <style>
+    /* Article cards text in black */
+    .article-card-link h4,
+    .article-card-link p {
+      color: #000;
+    }
+  </style>
 </head>
 <body>
 
+  <!-- Header -->
   <header class="site-header">
     <div class="banner">
-      <img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" />
+      <a href="index.html"><img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" /></a>
       <div class="site-title">
         <h1>The Signal</h1>
         <p>Voice of the University of Houston – Clear Lake community</p>
       </div>
-  
-      <!-- Hamburger Icon -->
       <div class="hamburger" id="hamburger">
         <span></span>
         <span></span>
         <span></span>
       </div>
     </div>
-  
-    <!-- Slide-Out Mobile Nav -->
     <nav class="mobile-nav" id="mobileMenu">
       <a href="index.html">Home</a>
       <a href="campus.html">Campus</a>
@@ -36,9 +39,7 @@
       <a href="lifeandculture.html">Life and Culture</a>
       <a href="opinion.html">Opinion</a>
       <div class="dropdown-link">
-        <button id="aboutToggle">
-          About Us <span id="aboutArrow">▾</span>
-        </button>
+        <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
         <div class="sub-links" id="aboutSubLinks">
           <a href="contactus.html">Contact Us</a>
           <a href="meettheteam.html">Meet the Team</a>
@@ -46,89 +47,68 @@
       </div>
     </nav>
   </header>
-  
-  
 
   <div class="page-wrapper">
     <main class="main-wrapper">
       <div class="content-container">
 
+        <!-- Recent News as unified featured-style cards -->
         <section class="left-column">
           <h2>Recent News</h2>
-
-          <div class="article-row">
-            <a href="../articles/tourneynight.html">
-              <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Tournament Night">
-            </a>
-            
-            <div class="article-text">
-              <h3><a href="articles/tourneynight.html">Tournament Night at UHCL</a></h3>
-              <p>By <a href="authors/calebhuffman.html">Caleb Huffman</a> <br>April 18, 2025</p>
-              <p><a href="campus.html">Campus</a>, <a href="#">Community News</a>, <a href="#">Life & Culture</a></p>
+          <div class="card-grid">
+            <div class="article-card">
+              <a href="articles/tourneynight.html" class="article-card-link">
+                <img src="https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg" alt="Tournament Night">
+                <h4>Tournament Night at UHCL</h4>
+                <p>By Caleb Huffman · April 18, 2025</p>
+              </a>
             </div>
-          </div>
-
-          <div class="article-row">
-           <a href="articles/letstalk.html">
-            <img src="images/deer.png" alt="deer">
-            </a>
-
-            <div class="article-text">
-              <h3><a href="articles/letstalk.html">Let's talk</a></h3>
-              <p>By <a href="authors/lisaalvarado.html">Lisa Alvarado</a><br>March 26, 2025</p>
-              <p><a href="campus.html">Campus</a></p>
+            <div class="article-card">
+              <a href="articles/letstalk.html" class="article-card-link">
+                <img src="images/deer.png" alt="Let's Talk">
+                <h4>Let's Talk</h4>
+                <p>By Lisa Alvarado · March 26, 2025</p>
+              </a>
             </div>
-          </div>
-
-          <div class="article-row">
-            <a href="articles/watergate.html">
-            <img src="https://images.pexels.com/photos/347925/pexels-photo-347925.jpeg" alt="water-droplets-on-green-leaf-347925">
-            <div class="article-text">
-              <h3><a href="articles/watergate.html">Clear Lake Water Gate Center: Protecting Water Quality and Managing Flood Risks</a></h3>
-              <p>By <a href="authors/daniellazcano.html">Daniel Lazcano</a><br>April 18, 2025</p>
-              <p><a href="Clear Lake.html">Clear Lake</a></p>
+            <div class="article-card">
+              <a href="articles/watergate.html" class="article-card-link">
+                <img src="https://images.pexels.com/photos/347925/pexels-photo-347925.jpeg" alt="Water Gate Center">
+                <h4>Clear Lake Water Gate Center: Protecting Water Quality and Managing Flood Risks</h4>
+                <p>By Daniel Lazcano · April 18, 2025</p>
+              </a>
             </div>
           </div>
         </section>
 
+        <!-- Featured Articles -->
         <section class="right-column">
           <h2>Featured Articles</h2>
-
-          <div class="article-card">
-            <img src="https://i0.wp.com/thesignalnews.net/wp-content/uploads/2025/03/IMG_0254-scaled.jpg?resize=1536%2C1024&ssl=1" alt="Featured">
-            <h4><a href="articles/coffee&cars.html">Coffee & Cars car show, something to do on a Saturday</a></h4>
-            <p>March 18, 2025</p>
-          </div>
-
-          <div class="article-card">
-            <img src="images/protestersdemonstrate.png" alt="Featured">
-            <h4><a href="articles/estadenuestravoz.html">Esta de Nuestra Voz</a></h4>
-            <p>February 9, 2025</p>
+          <div class="card-grid">
+            <div class="article-card">
+              <a href="articles/coffee&cars.html" class="article-card-link">
+                <img src="https://i0.wp.com/thesignalnews.net/wp-content/uploads/2025/03/IMG_0254-scaled.jpg?resize=1536%2C1024&ssl=1" alt="Coffee & Cars">
+                <h4>Coffee & Cars car show, something to do on a Saturday</h4>
+                <p>March 18, 2025</p>
+              </a>
+            </div>
+            <div class="article-card">
+              <a href="articles/estadenuestravoz.html" class="article-card-link">
+                <img src="images/protestersdemonstrate.png" alt="Esta es Nuestra Voz">
+                <h4>Esta es Nuestra Voz</h4>
+                <p>February 9, 2025</p>
+              </a>
+            </div>
           </div>
         </section>
-        
-        
-        
 
-        
-    
       </div>
     </main>
   </div>
-  
-  
+
   <div class="sidebar-container">
-  <!-- Weather Widget -->
     <div class="weather-box">
-      <a class="weatherwidget-io"
-        href="https://forecast7.com/en/29d76n95d37/houston/"
-        data-label_1="HOUSTON"
-        data-label_2="WEATHER"
-        data-theme="original">
-        HOUSTON WEATHER
-      </a>
+      <a class="weatherwidget-io" href="https://forecast7.com/en/29d76n95d37/houston/" data-label_1="HOUSTON" data-label_2="WEATHER" data-theme="original">HOUSTON WEATHER</a>
     </div>
-  <!-- POLL goes here, completely outside of <main> -->
     <div class="poll-sidebar">
       <form id="pollForm">
         <strong>📊 What content should The Signal post more of?</strong><br><br>
@@ -142,18 +122,14 @@
     </div>
   </div>
 
-
   <footer class="footer">
     <p>&copy; 2025 The Signal. All rights reserved.</p>
     <div class="social-links">
-      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
-      <a href="https://x.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
-      <a href="https://www.instagram.com/uhclthesignal" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/UHCLTheSignal/#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </footer>
-  
-  
-
   <script src="script.js"></script>
 </body>
 </html>
