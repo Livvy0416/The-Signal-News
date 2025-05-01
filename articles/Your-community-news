@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Signal – Your Signal is your community news</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header & Mobile Navigation -->
+  <header class="site-header">
+    <div class="banner">
+      <a href="index.html"><img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" /></a>
+      <div class="site-title">
+        <h1>The Signal</h1>
+        <p>Voice of the University of Houston – Clear Lake community</p>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="campus.html">Campus</a>
+      <a href="clear-lake.html">Clear Lake</a>
+      <a href="nuestravoz.html">Nuestra Voz</a>
+      <a href="greaterhouston.html">Greater Houston</a>
+      <a href="lifeandculture.html">Life & Culture</a>
+      <a href="opinion.html">Opinion</a>
+      <div class="dropdown-link">
+        <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
+        <div class="sub-links" id="aboutSubLinks">
+          <a href="contactus.html">Contact Us</a>
+          <a href="meettheteam.html">Meet the Team</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Article Content -->
+  <main class="article-wrapper">
+    <article class="article-full">
+      <header class="article-header">
+        <h2>Your Signal is your community news: We’re also more than just news</h2>
+        <p class="meta">By <a href="authors/joshualister.html">Joshua Lister</a> &middot; March 26, 2025</p>
+      </header>
+
+      <figure class="article-image">
+        <img src="images/ssc-reflection.jpg" alt="Hunter Hall reflection in SSCB windows" />
+        <figcaption>Photo by Josh Lister</figcaption>
+      </figure>
+
+      <div class="article-content">
+        <p>If you’re reading this, you already know we have a new <a href="#">website</a>. The team is working hard to build a community resource you can count on and be part of.</p>
+        <p>We’re launching and revamping initiatives—from restarting our podcast to boosting social media coverage—all to tell your community stories. Our goal is simple: provide news and entertainment that matter to you.</p>
+        <p>To put it plainly, we are your community media outlet, and our intention is to serve you, our community.</p>
+        <p>New features include <a href="lifeandculture.html#community-corner">Community Corner</a> under Life & Culture, where you can submit poetry, photography, and more. We’re also proud to expand <a href="nuestravoz.html">Nuestra Voz</a>, featuring authentic stories by and for our Hispanic community.</p>
+        <p>We’re engaging beyond campus: from local businesses to parks, we want to cover events that shape our Clear Lake community. Tell us what you’d like to see by emailing us or using the <a href="contactus.html">Contact Us</a> page.</p>
+        <p>Please be patient as we roll out updates—this platform will evolve with your feedback. Reach out anytime at <a href="mailto:thesignal@uhcl.edu">thesignal@uhcl.edu</a>.</p>
+      </div>
+
+      <div class="article-share">
+        <p>Share this:</p>
+        <a href="#"><i class="fas fa-share-alt"></i> Share</a>
+        <a href="#"><i class="fas fa-print"></i> Print</a>
+        <a href="#"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+
+      <div class="article-comments">
+        <h3>Leave a Reply</h3>
+        <form>
+          <label for="comment">Comment *</label>
+          <textarea id="comment" required></textarea>
+          <label for="name">Name *</label>
+          <input type="text" id="name" required />
+          <label for="email">Email *</label>
+          <input type="email" id="email" required />
+          <label for="website">Website</label>
+          <input type="url" id="website" />
+          <button type="submit">Post Comment</button>
+        </form>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 The Signal. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/UHCLTheSignal/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
