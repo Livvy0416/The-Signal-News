@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Signal – A Sign of the Times?</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- Header & Mobile Navigation -->
+  <header class="site-header">
+    <div class="banner">
+      <a href="index.html"><img src="images/signalnewslogo.png" alt="The Signal logo" class="logo-img" /></a>
+      <div class="site-title">
+        <h1>The Signal</h1>
+        <p>Voice of the University of Houston – Clear Lake community</p>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+    <nav class="mobile-nav" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="campus.html">Campus</a>
+      <a href="clear-lake.html">Clear Lake</a>
+      <a href="nuestravoz.html">Nuestra Voz</a>
+      <a href="greaterhouston.html">Greater Houston</a>
+      <a href="lifeandculture.html">Life & Culture</a>
+      <a href="opinion.html">Opinion</a>
+      <div class="dropdown-link">
+        <button id="aboutToggle">About Us <span id="aboutArrow">▾</span></button>
+        <div class="sub-links" id="aboutSubLinks">
+          <a href="contactus.html">Contact Us</a>
+          <a href="meettheteam.html">Meet the Team</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Article Content -->
+  <main class="article-wrapper">
+    <article class="article-full">
+      <header class="article-header">
+        <h2>A Sign of the Times?</h2>
+        <p class="meta">By <a href="authors/joshualister.html">Joshua Lister</a> &middot; March 7, 2025</p>
+      </header>
+
+      <figure class="article-image">
+        <img src="images/a-sign-of-the-times-clouds.png" alt="A symbolic sign representing current events" />
+        <figcaption>Photo by Josh Lister</figcaption>
+      </figure>
+
+      <div class="article-content">
+        <p>We are living through tumultuous times, it feels like it anyway. Deep down I suspect there is still hope.</p>
+        <p>Throughout history there has been crime, wars, violence, dictators and injustice. They seem to be unfortunate symptoms of being human. We have had plagues, slavery, kings, and every manner of evil one human can press upon another, yet here we are. We have not fallen yet.</p>
+        <blockquote>
+          <p>“At this particular moment in history, despair is not an option. Giving up is not acceptable. None of us have the privilege of hiding under the covers, as much as we might want to it.”</p>
+          <footer>&mdash; Senator Bernie Sanders</footer>
+        </blockquote>
+        <p>Considering the world we live in, we are measurably better off than our ancestors in many ways. We have advanced in basic rights, quality of life, medical knowledge and technology. We live in a period that has less warfare worldwide than any other point in recorded history. We have the tools to organize and share information. One more thing we have more of today is human empathy, at least the ability to communicate and coordinate it.</p>
+        <p>We have organizations and individuals who care for each other, our planet, and the many things that live on our planet. While there are some who would throw all that away for greed or hate, I believe there are far more of us who want to save it.</p>
+        <p>Stop, take a deep breath, and get ready to look at the world and evaluate, what can I do to help? How can we use technology to help each other? It is an overused but true phrase so I will say it again; be the change you want to see. If more people offer a hand instead of kicking, we can turn things around.</p>
+        <p>One of the worst tricks played on our society is convincing people that they must pick a team in the political arena. We have become so polarized over red vs. blue that we stop seeing others as parts of our society and start drawing blue and red borders around our political tribes. The issue is that the other side is made up of our people, family, friends, and neighbors. We need to stop looking at other members of our community as enemies and start looking at them as partners in the running of our nation.</p>
+        <p>We were meant to care for each other, not to care for the government or for a team/party. James Madison expressed his thoughts in The Federalist Papers, No. 10, see his words below.</p>
+        <p>Madison foresaw the dangers of tribalism. He asked that we see ourselves as members of a society not as members of a party. That society is made up of many beliefs, religions, ethnicities, and cultures. No one should be oppressed for being different. We are reminded that we are a whole society, not multiple societies competing for control.</p>
+        <p>I believe that if we discard the team mentality and look at each other as people and as Americans, we will be able to make a difference, and we will bring the world closer to peace.</p>
+        <p>The temptation is to bury our heads in the sand and let the world fall apart, but I don’t think this generation will let that happen. I believe this tech savvy generation has the greatest chance of pushing past the scourge of tribalism and nationalism. The tools are there, the intention is there, the determination is there, now go forward and make your voices heard. Be active in the community, be active in voting, and be active in caring about each other.</p>
+        <p>Humanity has pulled through far worse situations than this. We will do it again if our youth set the agenda. That agenda must be to do better than those of us who came before.</p>
+      </div>
+
+      <div class="article-share">
+        <p>Share this:</p>
+        <a href="#"><i class="fas fa-share-alt"></i> Share</a>
+        <a href="#"><i class="fas fa-print"></i> Print</a>
+        <a href="#"><i class="fas fa-envelope"></i> Email</a>
+      </div>
+
+      <div class="article-comments">
+        <h3>Leave a Reply</h3>
+        <form>
+          <label for="comment">Comment *</label>
+          <textarea id="comment" required></textarea>
+          <label for="name">Name *</label>
+          <input type="text" id="name" required />
+          <label for="email">Email *</label>
+          <input type="email" id="email" required />
+          <label for="website">Website</label>
+          <input type="url" id="website" />
+          <button type="submit">Post Comment</button>
+        </form>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 The Signal. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/UHCLTheSignal/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://x.com/uhclthesignal" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com/uhclthesignal" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
